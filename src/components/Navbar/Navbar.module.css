@@ -1,0 +1,28 @@
+/* small screen */
+.container {
+  background-color: #9f86c0;
+  padding: 1rem;
+  color: white;
+}
+
+.navbar__brand {
+  margin-bottom: 1rem;
+}
+
+/* medium sreen */
+@media (min-width: 768px) {
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbar__brand {
+    margin: 0;
+  }
+}
+
+/* large screen */
+@media (min-width: 992px) {
+}

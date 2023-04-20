@@ -1,0 +1,30 @@
+/* small screen */
+.container {
+  background-color: #9f86c0;
+  padding: 1rem;
+  color: white;
+  text-align: center;
+}
+
+.footer__brand {
+  margin-bottom: 3rem;
+}
+
+/* medium sreen */
+@media (min-width: 768px) {
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+  }
+
+  .footer__brand {
+    margin: 0;
+  }
+}
+
+/* large screen */
+@media (min-width: 992px) {
+}
